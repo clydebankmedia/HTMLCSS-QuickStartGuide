@@ -1,0 +1,19 @@
+.main-nav {
+    font-family: verdana, sans-serif;
+    font-size: .8rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.main-nav li { float: left; }
+
+.main-nav li a {
+    display: block;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
