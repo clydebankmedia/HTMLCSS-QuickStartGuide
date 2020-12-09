@@ -1,0 +1,13 @@
+/* Set a default font and size for the entire document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+h1 { font-size: 22px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+
+.bold-text { font-weight: bold; }
+.red-text { color: red; }
+.purple-text { color: purple; }
