@@ -1,0 +1,7 @@
+table { border: 1px solid blue; }
+th {
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+     td { padding: 5px; }
