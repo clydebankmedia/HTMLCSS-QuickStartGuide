@@ -1,0 +1,3 @@
+resize: vertical; /* allows resizing only for the height */
+resize: horizontal; /* allows resizing only for the width */
+resize: none; /* allows no resizing */
