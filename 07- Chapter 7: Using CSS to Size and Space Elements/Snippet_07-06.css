@@ -1,0 +1,8 @@
+#car {
+	width: auto;
+	height: auto;
+	min-width: 320px;
+	min-height: 240px;
+	max-width: 1280px;
+	max-height: 960px;
+}
