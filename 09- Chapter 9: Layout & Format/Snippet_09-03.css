@@ -1,0 +1,8 @@
+#top-ad {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 640px;
+    background-color: yellow;
+    color: red; 
+}
