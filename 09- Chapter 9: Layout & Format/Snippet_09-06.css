@@ -1,0 +1,17 @@
+div.the-parent {
+    position: relative;
+    background-color: #CCCCCC;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+} 
+
+div.the-child {
+    position: absolute;
+    background-color:#ffffff;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+}
