@@ -1,0 +1,8 @@
+/* Add a thick border to the left of blockquote */
+blockquote { border-left: 3px solid black; }
+
+/* Give quote (q) a neon-yellow background */
+q { background-color: #FFFF33; }
+
+/* Make cite a smaller font and a lighter color */
+cite { font-size: 80%; color: gray; } 
