@@ -1,0 +1,14 @@
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    border: 1px solid #000000;
+}
+
+.grid::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box, .grid, .grid::after { box-sizing: border-box; }
