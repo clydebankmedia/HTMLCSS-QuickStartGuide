@@ -1,0 +1,9 @@
+#top-ad { 
+    background-color: yellow;
+    color: red;
+    padding: 10px 12px;
+    border-top: 3px solid gray;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid gray; 
+} 
