@@ -1,0 +1,9 @@
+.sidebar {
+	float: right;
+	height: 100px;
+	width: 200px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.main-text { border: 1px solid #333333; }
