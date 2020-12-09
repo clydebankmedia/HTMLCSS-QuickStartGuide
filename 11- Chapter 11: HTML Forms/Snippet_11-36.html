@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+  </head>
+  <body>
+
+<h1>Contact Us</h1>
+
+<form action="contact.php" method="POST">
+
+    <label for="name">Name</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label for="phone">Phone</label><br>
+    <input type="tel" name="phone"><br><br>
+
+    <label for="country">Country</label><br>
+         <input type="text" name="country" pattern="^([A-Z]{2})$" required><br><br>
+
+    <label for="name">Subject</label><br>
+    <input type="text" name="subject" required><br><br>
+
+    <label for="reply">Desired Reply</label><br>
+    <select name="reply" required>
+        <option value="" selected>Please select...</option>
+        <option value="Email">Email</option>
+        <option value="Phone" selected>Phone Call</option>
+    </select><br><br>
+
+         <label for="message">Message</label><br>
+    <textarea name="message" rows="5" cols="60" maxlength="2000"></textarea><br><br>
+    
+    <input type="submit" name="submit" value="Send Message">	
+	
+</form>
+
+</body>
+</html>
