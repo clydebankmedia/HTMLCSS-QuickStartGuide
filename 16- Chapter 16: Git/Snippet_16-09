@@ -1,0 +1,2 @@
+cd ~/public_html
+git pull origin master
