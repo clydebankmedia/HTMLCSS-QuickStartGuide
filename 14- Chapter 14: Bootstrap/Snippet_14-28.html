@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- The navbar-brand class defines the title (or logo) of the navigation bar -->
+  <a class="navbar-brand" href="#">ClydeBank Coffee House</a>
+  <!-- This button is transformed (when needed) into the "hamburger" icon for mobile devices -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainNavbar" aria-controls="MainNavbar" aria-expanded="false" aria-label="Toggle Navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="MainNavbar">
+    <ul class="navbar-nav mr-auto">
+      <!-- Since this is styled "active", it will be displayed with white text, indicating this is the page we are on. -->
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <!-- The dropdown class tells Bootstrap that this menu item will trigger a dropdown menu. The dropdown menu to expand has the id of navbarDropdown. -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Events
+        </a>
+        <!-- This is the dropdown menu itself, described by navbarDropDown. Bootstrap ties these two together so that this div is expanded when the user clicks the appropriate menu item. -->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Music</a>
+          <a class="dropdown-item" href="#">Comedians</a>
+          <!-- Place a line between Comedians and Exhibits. This is similar to an hr element -->
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Exhibits</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
