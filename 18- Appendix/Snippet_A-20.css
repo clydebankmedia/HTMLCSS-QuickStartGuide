@@ -1,0 +1,16 @@
+#coffeehouse {
+  background-image: url("https://live.staticflickr.com/4547/38870108602_4d4a96ca01_b.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+  animation-name: background-pan;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+ 
+@keyframes background-pan {
+  from { background-position: left; }
+  to { background-position: right; }
+}
