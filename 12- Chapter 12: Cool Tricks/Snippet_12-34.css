@@ -1,0 +1,5 @@
+#mydiv {
+    width: calc(100% - 50px);
+    background-color: black;
+    color: silver;
+}
