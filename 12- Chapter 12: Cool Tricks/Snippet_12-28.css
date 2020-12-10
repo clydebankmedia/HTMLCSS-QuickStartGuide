@@ -1,0 +1,14 @@
+#car {
+    width: 320px;
+    height: 240px;
+    position: relative;
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes zoom {
+    from { left: 0px; }
+    to { left: 500px; }
+}
