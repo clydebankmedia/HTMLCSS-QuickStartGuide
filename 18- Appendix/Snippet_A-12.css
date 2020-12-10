@@ -1,0 +1,19 @@
+header {
+    background: sienna;
+    padding: 10px;
+}
+
+nav { background: saddlebrown; }
+
+nav li a {
+    color: white;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+footer {
+    background: saddlebrown;
+    color: #fff;
+    padding: 10px;  
+    height: 100px;
+}
