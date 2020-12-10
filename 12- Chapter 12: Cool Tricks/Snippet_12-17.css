@@ -1,0 +1,8 @@
+#car {
+    width: 320px;
+    height: 240px;
+}
+#car:hover {
+    width: 640px;
+    transition: width 2s;
+}
