@@ -1,0 +1,52 @@
+/*  */
+.overlay{
+    background: rgba(0,0,0, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+/* Checkbox */
+#onOff{
+    position: fixed;
+    clip: rect(0,0,0,0);
+}
+
+#onOff:checked ~ .overlay { display: block; }
+
+/* Buttons */
+.overlayButton{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background: steelblue;
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 50%;
+    margin-top: 40px;
+    text-align: center;
+}
+.overlay .overlayButton { background-color: darkred; }
+
+
+/* Background and Fonts */
+
+body{
+    font-family: sans-serif;
+    background-color:#556;
+/* Set a linear gradient as the background image */
+    background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
+    linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
+    linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+    background-size:80px 140px;
+    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
