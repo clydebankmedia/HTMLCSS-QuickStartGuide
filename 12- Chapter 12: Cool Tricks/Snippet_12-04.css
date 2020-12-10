@@ -1,0 +1,6 @@
+#linear-gradient {
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    background-image: linear-gradient(to right, black, white); 
+}
