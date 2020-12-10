@@ -1,7 +1,0 @@
-@media print and (orientation: landscape) {
-    /* CSS rules here apply to printing in landscape mode */
-}
-
-@media print and (orientation: portrait) {
-    /* CSS rules here apply to printing in portrait mode */
-}
