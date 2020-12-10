@@ -1,0 +1,13 @@
+#linear-gradient {
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    background-image: linear-gradient(black, white); 
+}
+
+#linear-gradient p {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    color: white;
+}
