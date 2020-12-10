@@ -1,0 +1,9 @@
+#warning { 
+    width: 250px;
+    height: 30px;
+    background-color: gray;
+    color: white;    
+    text-align: center;
+    line-height: 30px;
+    transform: skew(45deg, 30deg); 
+}
