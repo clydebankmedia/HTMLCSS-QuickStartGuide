@@ -1,0 +1,23 @@
+#pallet {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('/img/sprites.png') 0 0;
+}
+
+#guitar {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('/img/sprites.png') -40px 0;
+}
+
+#mask {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    background: url('/img/sprites.png') -80px 0;
+}
