@@ -1,1 +1,2 @@
 git checkout master
+git merge new branch
